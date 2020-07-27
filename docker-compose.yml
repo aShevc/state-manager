@@ -1,0 +1,6 @@
+version: '2'
+services:
+  state-manager:
+    image: state-manager:latest
+    ports:
+    - 8080:8080
